@@ -58,10 +58,10 @@ text ("For being in my life", 700,700);
     // Set the vertex
     vertex(x, y); 
     // Increment x dimension for noise
-    xoff += -0.05;
+    xoff += 0.05;
   }
   // increment y dimension for noise
-  yoff += -0.4;
+  yoff += 0.1;
   vertex(width, height);
   vertex(0, height);
   endShape(CLOSE);
