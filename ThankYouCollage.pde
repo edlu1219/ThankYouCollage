@@ -7,7 +7,7 @@ void setup() {
    background(100,100,255,50);
   size(1000,1000);
   img = loadImage ("cloud.jpg");
-  //image (img,0,0,width*1,height/1);
+  image (img,0,0,width*1,height/1);
   
   
 
@@ -18,7 +18,7 @@ void draw() {
 
    //background(100,100,255,50);
  img = loadImage ("cloud.jpg");
- // image (img,0,0,width*1,height/1);
+  image (img,0,0,width*1,height/1);
  // frameRate (999999);
  
     
