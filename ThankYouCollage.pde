@@ -36,7 +36,7 @@ img = loadImage ("cloud.jpg");
 image (img,0,0,width*1,height/1);
 textAlign (CENTER);
 textSize (50);
-text ("For being in my life", 700,700);
+text ("For being in my life", 500,550);
 
 
 }
