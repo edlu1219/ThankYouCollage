@@ -7,7 +7,7 @@ void setup() {
    background(100,100,255,50);
   size(1000,1000);
   img = loadImage ("cloud.jpg");
-  image (img,0,0,width*1,height/1);
+  //image (img,0,0,width*1,height/1);
   
   
 
@@ -17,7 +17,7 @@ void draw() {
 
 
    //background(100,100,255,50);
- img = loadImage ("cloud.jpg");
+ //img = loadImage ("cloud.jpg");
   image (img,0,0,width*1,height/1);
  // frameRate (999999);
  
@@ -25,8 +25,8 @@ void draw() {
 textAlign (CENTER);
 textSize (50);
 fill(0);
-img = loadImage ("cloud.jpg");
-//image (img,0,0,width*1,height/1);
+//img = loadImage ("cloud.jpg");
+image (img,0,0,width*1,height/1);
 text ("Thank You", 500,500);
   fill (0);
   
@@ -61,7 +61,7 @@ text ("For being in my life", 500,500);
     xoff += -0.05;
   }
   // increment y dimension for noise
-  yoff += -0.2;
+  yoff += -0.4;
   vertex(width, height);
   vertex(0, height);
   endShape(CLOSE);
@@ -73,5 +73,3 @@ text ("For being in my life", 500,500);
  textAlign (RIGHT);
  textSize (40);
  text ("TWIX", 880,910);
-
-}
