@@ -17,8 +17,8 @@ void draw() {
 
 
    //background(100,100,255,50);
- //img = loadImage ("cloud.jpg");
-  image (img,0,0,width*1,height/1);
+ img = loadImage ("cloud.jpg");
+ // image (img,0,0,width*1,height/1);
  // frameRate (999999);
  
     
@@ -32,7 +32,7 @@ text ("Thank You", 500,500);
   
   
 if (mousePressed) {
-//img = loadImage ("cloud.jpg");
+img = loadImage ("cloud.jpg");
 image (img,0,0,width*1,height/1);
 textAlign (CENTER);
 textSize (50);
