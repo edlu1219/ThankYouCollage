@@ -72,5 +72,5 @@ text ("For being in my life", 500,550);
   fill (0);
  textAlign (RIGHT);
  textSize (40);
- text ("TWIX", 880,910);
+ text ("To All", 895,910);
 }
